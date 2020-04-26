@@ -15,6 +15,7 @@ param = param[1:14,1]
 ```
 Model simulation
 ```julia
+include("Moldel/model_cyto.jl")
 sol = cytokines_model(param)
 ```
 Simulation plots
